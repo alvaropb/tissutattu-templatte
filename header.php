@@ -15,7 +15,12 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" >
 
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 <?php wp_head(); ?>
 </head>
 
